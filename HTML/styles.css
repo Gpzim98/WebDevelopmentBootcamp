@@ -1,0 +1,12 @@
+body {
+  font-family: courier;
+}
+
+h2 {
+  color: yellow;
+}
+
+p {
+    font-size: 160%;
+    border: 2px solid black;
+}

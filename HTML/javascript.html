@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript</title>
+  </head>
+  <body>
+
+    <button type="button" name="button"
+       onclick='alert("Bem vindo ao javascript")'>Click me</button>
+
+   <button type="button"
+      onclick="console.log('Seja bem vindo ao JavaScript')"> Click me</button>
+
+    <h1 onclick="MinhaFuncao()">Titulo</h1>
+
+    <div id="demo">
+
+    </div>
+
+    <script>
+      document.getElementById("demo").innerHTML = "Hello JavaScript!";
+
+      function MinhaFuncao()
+      {
+          alert(Date());
+
+      }
+
+    </script>
+
+  </body>
+</html>

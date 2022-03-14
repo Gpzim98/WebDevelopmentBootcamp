@@ -3,6 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Forms HTML</title>
+
+    <style media="screen">
+      .formulario {
+        background-color: pink;
+      }
+    </style>
   </head>
   <body>
 
@@ -30,7 +36,23 @@
       <input type="submit">
     </form>
 
-    <!-- 
+    <!-- Verbos HTTP
+      GET - consulta
+      POST - Cadastrar informacao no servidor
+      PUT - Atualizar informacao no servidor
+      PATH - Atualizar informacao
+      DELETE - Deletar algo no servidor
+      OPTIONS
+      HEAD
+    -->
+
+    <form class="formulario" action="/cadastro-cliente" method="get">
+      <input type="text" name="" value="">
+      <input type="text" name="" value="">
+      <input type="submit">
+    </form>
+
+    <!--
       forms.html?PrimeiroNome=Gregory&
       Phone=34563456&
       Data=11-11-11&
